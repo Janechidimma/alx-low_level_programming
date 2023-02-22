@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
-  *main - check the code
+  *print_alphabet - print lower case alphabets
   *Return: Always 0 (success)
   */
-int main(void)
+void print_alphabet(void)
 {
 	int n = 97;
 
