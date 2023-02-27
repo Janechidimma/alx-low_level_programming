@@ -25,6 +25,6 @@ void rev_string(char *s)
 
 		s[last - i] = s[i];
 
-		s[i] = last char
+		s[i] = last_char
 	}
 }
