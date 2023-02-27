@@ -8,8 +8,7 @@
 void rev_string(char *s)
 {
 	int count = 0, i = 0;
-
-	char last _char;
+	char last_char;
 
 	while (*s)
 	{
@@ -22,9 +21,9 @@ void rev_string(char *s)
 	{
 		int last = count - i;
 
-		last _char = s[last -i];
+		last_char = s[last - i];
 
-		s[last -i] = s[i];
+		s[last - i] = s[i];
 
 		s[i] = last char
 	}
